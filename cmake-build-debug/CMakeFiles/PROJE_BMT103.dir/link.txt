@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\PROJE_BMT103.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\PROJE_BMT103.dir/objects.a @CMakeFiles\PROJE_BMT103.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\PROJE_BMT103.dir/objects.a -Wl,--no-whole-archive -o PROJE_BMT103.exe -Wl,--out-implib,libPROJE_BMT103.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PROJE_BMT103.dir\linkLibs.rsp
