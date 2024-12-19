@@ -83,7 +83,7 @@ int main() {
 // Harf küçültme fonksiyonu
 void tolowercase(char kucuk[10]) {
     for (int i = 0; kucuk[i] != 0; i++) {
-         kucuk[i] = tolower(kucuk[i]); // 0 ile 255 arasındaki ASCII değerleri için
+         kucuk[i] = tolower(kucuk[i]);
     }
 }
 
