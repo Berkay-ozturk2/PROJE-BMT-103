@@ -68,6 +68,7 @@ int main() {
         printf("fatura.txt dosyasi olusturulamadi!\n");
         return 1;
     }
+    
     // fatura.txt dosyasının içine yazdırma
     fprintf(fatura, "%s 2012\n", ay_adi);
     fprintf(fatura, "Toplam Yükleme: %.2f GB\n", toplam_yukleme);
